@@ -1,0 +1,28 @@
+   0 mkdir /home/animals
+   1 ls /home
+   2 cd /home/animals
+   3 mkdir /dogs /cats /fish (не понял почему находясь в папке Animals мне не дало создать папки по короткому пути. Так нельзя?)
+   4 ls
+   5 ls /home/animals/
+   6 mkdir /dogs (тут тоже пытался сделать папку по короткому пути, но не получилось)
+   7 tree /home
+   8 mkdir /home/animals/dogs /home/animals/cats /home/animals/fish (с длинным путем все вышло :) )
+   9 ls
+  10 touch /cats/garfield.txt /dogs/pluto.txt /fish/nemo.txt (тут тоже пытался сделать по короткому пути)
+  11 tree /home/animals
+  12 touch /home/animals/cats/garfield.txt /home/animals/dogs/pluto.txt /home/animals/fish/nemo.txt
+  13 tree /home/animals/
+  14 touch /tmp/adam.txt
+  15 ls /tmp
+  16 mkdir /home/humans && cp /tmp/adam.txt /home/humans
+  17 tree /home
+  18 touch /tmp/eva.txt
+  19 mv /tmp/eva.txt /opt/eve.txt
+  20 ls /opt
+  21 mv /opt/eve.txt /home/humans/eve.txt
+  22 ls /home/humans/
+  23 history
+  24 export_file history.txt
+  25 cd /
+  26 export_file history.txt
+  27 history > history.txt
