@@ -1,0 +1,10 @@
+   0 vi tmp/file.txt
+   1 df -h | tail -3 >> /tmp/file.txt
+   2 chmod g+w /tmp/file.txt && chmod u-r /tmp/file.txt && chmod o+x /tmp/file.txt 
+   3 export NAME=Igor && export VAR=blablabla
+   4 env | grep -w NAME >> /tmp/file.txt && env | grep -w VAR >> /tmp/file.txt
+   5 nano /tmp/file.txt 
+   6 unset NAME && unset VAR
+   7 env
+   8 cat /tmp/file.txt 
+   9 history > history.txt
